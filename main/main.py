@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from matplotlib.pyplot as plt
 
 # Ukuran panel berdasarkan pixel
-size = "500x500"
+size = "500x400"
 
 # Waktu dan kata2 penyemangat Pomodoro (menit)
 pomodoro = [25, 5, 25, 5, 25, 5, 25, 30]
