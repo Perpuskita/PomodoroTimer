@@ -3,7 +3,7 @@ import customtkinter as ctk
 from datetime import datetime, timedelta
 
 # Ukuran panel berdasarkan pixel
-size = "500x300"
+size = "500x400"
 
 # Waktu dan kata2 penyemangat Pomodoro (menit)
 pomodoro = [25, 5, 25, 5, 25, 5, 25, 30]
