@@ -1,6 +1,7 @@
 import tkinter as tk
 import customtkinter as ctk
 from datetime import datetime, timedelta
+from matplotlib.pyplot as plt
 
 # Ukuran panel berdasarkan pixel
 size = "500x300"
@@ -10,7 +11,7 @@ pomodoro = [25, 5, 25, 5, 25, 5, 25, 30]
 sesion_name = ["belajar dengan semangat", "istirahat kecil", 
                "belajar giat mencapai cita", "istirahat kecil", 
                "belajar adalah investasi", "istirahat kecil",
-               "belajar untuk masa depan", "istirahat besar"]
+               "belajar untuk masa depan", "istirahat kecil"]
 
 # Kelas yang menampung panel utama aplikasi
 class App(ctk.CTk):
